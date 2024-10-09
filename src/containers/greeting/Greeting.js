@@ -27,6 +27,11 @@ export default function Greeting() {
                 {greeting.title}{" "}
                 <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
+              <p className={isDark ? "dark-mode greeting-text" : "greeting-txt"}>
+              {" "}
+              {greeting.destination}
+              {" "}
+              </p>
               <p
                 className={
                   isDark

@@ -22,6 +22,7 @@ const illustration = {
 const greeting = {
   username: "Aziz Ur Rehman",
   title: "Hi all, I'm Aziz Ur Rehman",
+  destination: "Web/Software Developer",
   subTitle: emoji(
     " Highly skilled Front-End Developer with expertise in React js and JavaScript. Proven track record of building scalable, efficient applications. Passionate about staying updated with industry trends and collaborating with innovative teams."
   ),
@@ -135,7 +136,7 @@ const educationInfo = {
     {
       schoolName: "Jnnah Government College Nazimabad,Karachi",
       logo: require("./assets/images/college.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      subHeader: "Intermediate in Pre-Engineering",
       duration: "May 2017 - June 2019",
       desc: "Took courses about Pre-Engineering like Maths,Physics,Chemistry,....",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
@@ -143,7 +144,7 @@ const educationInfo = {
     {
       schoolName: "New Progressive Public Schooling System",
       logo: require("./assets/images/School.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      subHeader: "Matriculation in Computer Science",
       duration: "March 2015- April 2017",
       desc: "Took courses about Science Group like Maths,Physics,Chemistry,Computer....",
       //descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
