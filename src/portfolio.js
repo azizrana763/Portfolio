@@ -23,11 +23,11 @@ const greeting = {
   username: "Aziz Ur Rehman",
   title: "Hi all, I'm Aziz Ur Rehman",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs  and some other cool libraries and frameworks."
+    " Highly skilled Front-End Developer with expertise in React js and JavaScript. Proven track record of building scalable, efficient applications. Passionate about staying updated with industry trends and collaborating with innovative teams."
   ),
   resumeLink:
-      "https://drive.google.com/uc?export=download&id=16y8UOAzE3raBibDysw5R1CYZDamUVqW_"
-    , // Set to empty to hide the button
+    "https://drive.google.com/uc?export=download&id=16y8UOAzE3raBibDysw5R1CYZDamUVqW_"
+  , // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -35,9 +35,9 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/azizrana763",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  linkedin: "https://linkedin.com/in/aziz-ur-rehman-0465641a9",
   gmail: "azizana763@gmail.com",
-  facebook: "https://www.facebook.com/saad.pasta7",
+  facebook: "https://www.facebook.com/aziz.r95",
   instagram: "https://www.instagram.com/azizrana763",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -48,14 +48,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase/ AWS "
     )
   ],
 
@@ -71,10 +71,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
+    /*{
       skillName: "sass",
       fontAwesomeClassname: "fab fa-sass"
-    },
+    },*/
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -87,10 +87,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
+    /*{
       skillName: "swift",
       fontAwesomeClassname: "fab fa-swift"
-    },
+    },*/
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -107,14 +107,14 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
-    {
+    /*{
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    }*/
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -130,23 +130,23 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Computer Science",
       duration: "Oct 2020 - Aug 2024",
       desc: "Ranked top 10% in the program. Took courses about Computer Science like Web Engineering,Cloud Computing,Operating Systems,Artificial Intelligent,  ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     },
     {
       schoolName: "Jnnah Government College Nazimabad,Karachi",
       logo: require("./assets/images/college.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "May 2017 - June 2019",
-      desc: "Ranked top 10% in the program. Took courses about Pre-Engineering like Maths,Physics,Chemistry,....",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Took courses about Pre-Engineering like Maths,Physics,Chemistry,....",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     },
     {
       schoolName: "New Progressive Public Schooling System",
       logo: require("./assets/images/School.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "March 2015- April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Pre-Engineering like Maths,Physics,Chemistry,....",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Took courses about Science Group like Maths,Physics,Chemistry,Computer....",
+      //descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -237,19 +237,19 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://github.com/azizrana763"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/ECOMMERCE.png"),
+      image: require("./assets/images/EasyDrive.jpeg"),
       projectName: "Easy Drive (Congestion Free Commute)",
       projectDesc: " Our project introduces a real-time GPS tracking system for school buses and vans, enhancing safety and traffic management. Parents and school administrators receive continuous updates on vehicle locations and geo-fencing alerts for designated pickup spots. This system optimizes routes to reduce congestion and waiting times, creating a safer commuting environment for students. Overall, it streamlines transportation operations and improves the educational experience for all stakeholders.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://github.com/azizrana763"
         }
         //  you can add extra buttons here.
       ]
@@ -261,7 +261,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://github.com/azizrana763"
         }
         //  you can add extra buttons here.
       ]
@@ -273,7 +273,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://github.com/azizrana763"
         }
         //  you can add extra buttons here.
       ]
@@ -285,7 +285,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://github.com/azizrana763"
         }
       ]
     }
