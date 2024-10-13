@@ -238,7 +238,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://github.com/azizrana763"
+          url: "https://ecommerce-sigma-orcin.vercel.app/"
         }
         //  you can add extra buttons here.
       ]
@@ -262,7 +262,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://github.com/azizrana763"
+          url: "https://food-delivery-seven-gamma.vercel.app/"
         }
         //  you can add extra buttons here.
       ]
