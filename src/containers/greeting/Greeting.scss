@@ -36,6 +36,7 @@
 }
 .download-link-button {
   text-decoration: none;
+ 
 }
 
 .greeting-text {
@@ -99,6 +100,7 @@
     font-size: 15px;
   }
 
+
   .greeting-text {
     font-size: 50px;
   }
@@ -108,7 +110,12 @@
 }
 @media (max-width: 768px) {
   .button-greeting-div {
-    justify-content: space-around;
+    justify-content: center; /* Center buttons on smaller screens */
+  }
+
+  .download-link-button {
+    width: auto; /* Allow automatic width */
+    min-width: 120px; /* Adjust minimum width for smaller screens */
   }
   .greeting-txt {
     font-size: 15px;
