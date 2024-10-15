@@ -58,6 +58,11 @@ export default function StartupProject() {
                     >
                       {project.projectName}
                     </h5>
+                    <h6
+                      className={isDark ? "dark-mode card-title" : "card-title"}
+                    >
+                      {project.projectTitle}
+                    </h6>
                     <p
                       className={
                         isDark ? "dark-mode card-subtitle" : "card-subtitle"

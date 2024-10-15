@@ -111,7 +111,17 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
-    /*{
+    /*{ 
+      color: "#06B6D4", // Tailwind CSS color
+      skillName: "Tailwind CSS",
+      fontAwesomeClassname: "fab fa-tailwind" // Ensure the icon is available in your Font Awesome version
+    },
+    { 
+      color: "#47A248", // MongoDB color
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fab fa-mongodb" // Ensure the icon is available in your Font Awesome version
+    },
+    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
@@ -247,13 +257,14 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/EasyDrive.jpeg"),
+      image: require("./assets/images/EasyDrive.png"),
       projectName: "Easy Drive (Congestion Free Commute)",
+      projectTitle:"Final Year Project",
       projectDesc: " Our project introduces a real-time GPS tracking system for school buses and vans, enhancing safety and traffic management. Parents and school administrators receive continuous updates on vehicle locations and geo-fencing alerts for designated pickup spots. This system optimizes routes to reduce congestion and waiting times, creating a safer commuting environment for students. Overall, it streamlines transportation operations and improves the educational experience for all stakeholders.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://github.com/azizrana763"
+          url: "https://final-year-project-ashen-tau.vercel.app/"
         }
         //  you can add extra buttons here.
       ]
@@ -270,7 +281,7 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
-    {
+   /* {
       image: require("./assets/images/pic2.jpg"),
       projectName: "Restaurant Management System--- C# Winform:",
       projectDesc: "System that enables a restaurant to manage front-office capabilities, such as booking reservations, checkout, food assignment, managing food rates, and billing",
@@ -281,9 +292,9 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    },
+    },*/
     {
-      image: require("./assets/images/pics.jpg"),
+      image: require("./assets/images/Jarvis.png"),
       projectName: "JARVIS: AI VOICE ASSISTANT(MEMBER):",
       projectDesc: "We proposed IoT-based home security system is a cost-effective and efficient solution for protecting homes from intruders. The use of a motion detector, IoT gateway, camera, and sirens allows for real-time monitoring and quick response to potential threats.",
       footerLink: [
@@ -438,7 +449,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
