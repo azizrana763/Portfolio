@@ -64,11 +64,12 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
+    { 
+      color: "#E34F26",
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
-    {
+    { color: "#1572B6",
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
@@ -76,15 +77,16 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sass",
       fontAwesomeClassname: "fab fa-sass"
     },*/
-    {
+    { color: "#F7DF1E",
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
-    {
+    { color: "#61DAFB",
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
     {
+      color: "#8CC84B" ,
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
@@ -93,18 +95,19 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-swift"
     },*/
     {
+     color: "#CB3837",
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
-    {
+    { color: "#00758F",
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
+    { color: "#FF9900",
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
-    {
+    {  color: "#FFCA28",
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },

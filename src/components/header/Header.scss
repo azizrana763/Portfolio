@@ -51,9 +51,9 @@
 }
 
 .header .logo {
-  //display: block;
+  display: block;
   flex: none;
-  //float: left;
+  float: left;
   font-size: 1.2em;
   text-decoration: none;
   margin-top: 10px;
@@ -61,6 +61,7 @@
 }
 
 .header .logo-name {
+  font-size: 1em;
   font-family: "Agustina Regular";
   font-weight: bold;
   font-variant-ligatures: no-common-ligatures;
@@ -178,5 +179,10 @@
 @media (max-width: 960px) and (min-width: 768px) {
   .header {
     font-size: 12px;
+  }
+}
+@media (min-width: 311px) {
+  .header .logo-name{
+ font-size: 1rem;
   }
 }
